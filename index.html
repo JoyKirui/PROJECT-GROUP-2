@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive HTML Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Student Details Form -->
+    <div id="student-form">
+        <h2>Welcome to the HTML Quiz</h2>
+        <p>Please enter your details to begin.</p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <label for="admno">ADMISSION NO:</label>
+        <input type="number" id="admno" required>
+        <button onclick="startQuiz()">Start Quiz</button>
+    </div>
+
+    <!-- Quiz Section -->
+    <div id="quiz-container" class="hidden">
+        <h2>HTML Quiz Questions</h2>
+        <div id="quiz"></div>
+        <button class="submit-btn" onclick="submitQuiz()">Submit Quiz</button>
+        <div id="result" class="result hidden">
+            <p id="score-message"></p>
+            <button class="reset-btn" onclick="resetQuiz()">Reattempt Quiz</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
