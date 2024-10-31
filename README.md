@@ -1,4 +1,3 @@
-# PROJECT-GROUP-2
 # HTML Quiz Application
 
 This is a quiz application built with HTML, CSS, and JavaScript. The quiz features a form for collecting user details, card-based questions on HTML fundamentals, score grading, and an option for users to reattempt the quiz after viewing their results.
